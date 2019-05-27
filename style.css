@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-size: 200% 100% !important;
+    background: #607d8b;
+    height: 90vh;
+}
+
+.form {
+    margin-top: 40px;
+    border-radius: 6px;
+    overflow: hidden;
+    
+}
+
+.upload-file {
+    width: 90%;
+    max-width: 340px;
+    margin: 10vh auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 6px;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 25%;
+    margin: 20px;
+}
+
+h3, p {
+    text-align: center;
+    color: #607d8b;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: #607d8b solid;
+}
+
+.btn-ch {
+    border-radius: 0px;
+    display: block;
+    width: 100%;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    -webkit-appearance: none;
+    outline: 0;
+    border: 0;
+    color: white;
+    background-color: #cfd8dc;
+    transition: 0.6s;
+}
+
+.btn-ch:hover {
+    background-color: #66bb6a;
+    color: white;
+}
+
+.btn-up {
+    border-radius: 0px;
+    display: block;
+    width: 100%;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    -webkit-appearance: none;
+    outline: 0;
+    border: 0;
+    color: white;
+    background-color: #37474f;
+    transition: 0.6s;
+}
+
+.btn-up:hover {
+    background-color: #4db6ac;
+    color: white;
+}
+
+.btn-an {
+    border-radius: 0px;
+    display: block;
+    width: 100%;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    -webkit-appearance: none;
+    outline: 0;
+    border: 0;
+    color: white;
+    background-color: #37474f;
+    transition: 0.6s;
+}
+
+.btn-an:hover {
+    background-color: #ffca28;
+    color: white;
+}
+
+/* STYLE FOR SECOND PAGE */
+.content {
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#petunjuk {
+    font-size: 16px;
+    text-transform: lowercase;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#wrapper {
+    width: 90%;
+    max-width: 340px;
+    margin: 10vh auto;
+    background-color: #37474f;
+    padding: 30px;
+    border-radius: 6px;
+}
+
+#responseTextArea {
+    color: #4db6ac;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 10px;
+    padding: 30px;
+    border-radius: 6px;
+}
